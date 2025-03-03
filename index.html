@@ -111,38 +111,42 @@
       </section>
       <section class="about">
         <article class="about__info">
-          <p class="about__text">
-            Мы являемся авторизованным сервисным центром по ремонту техники
-            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
-            официальной гарантией производителя.
-          </p>
-          <p class="about__text about__text--768">
-            Мы успешно работаем с 1992 года и заслужили репутацию надежного
-            партнера
-          </p>
-          <p class="about__text about__text--1120">
-            Мы успешно работаем с 1992 года и заслужили репутацию надежного
-            партнера, что подтверждает большое количество постоянных клиентов.
-            Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
-            очередь, советуют нас родным и близким.
-          </p>
-          <a href="#" class="about__more">Читать далее</a>
+          <div class="about__wrapper about__wrapper--left">
+            <p class="about__text">
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+            </p>
+            <p class="about__text about__text--768">
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера
+            </p>
+            <p class="about__text about__text--1120">
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера, что подтверждает большое количество постоянных клиентов.
+              Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+              очередь, советуют нас родным и близким.
+            </p>
+            <a href="#" class="about__more">Читать далее</a>
+          </div>
+          <div class="about__wrapper about__wrapper--right">
+            <picture class="about__picture">
+              <source
+                srcset="images/about__img--768.jpg"
+                media="(width >= 768px)"
+              />
+              <source
+                srcset="images/about__img--1120.jpg"
+                media="(width >= 1120px)"
+              />
+              <img
+                src="images/about__img--320.jpg"
+                class="about__img"
+                alt="Фотография"
+              />
+            </picture>
+          </div>
         </article>
-        <picture class="about__picture">
-          <source
-            srcset="images/about__img--768.png"
-            media="(width >= 768px)"
-          />
-          <source
-            srcset="images/about__img--1120.png"
-            media="(width >= 1120px)"
-          />
-          <img
-            src="images/about__img--320.jpg"
-            class="about__img"
-            alt="Фотография"
-          />
-        </picture>
       </section>
     </main>
   </body>

@@ -218,7 +218,7 @@ button {
   background-color: var(--lightGray);
 }
 
-.about__info {
+.about__wrapper--left {
   padding-left: 16px;
   padding-right: 21px;
   margin-bottom: 16px;
@@ -301,11 +301,14 @@ button {
   }
 
   .about {
-    display: flex;
     padding-top: 16px;
   }
 
   .about__info {
+    display: flex;
+  }
+
+  .about__wrapper--left {
     margin-right: 62px;
     margin-bottom: 0;
     padding-right: 0;
@@ -331,6 +334,7 @@ button {
 
   .about__img {
     min-width: 360px;
+    border-radius: 6px;
   }
 }
 
@@ -451,7 +455,7 @@ button {
     display: block;
   }
 
-  .about__info {
+  .about__wrapper--left {
     margin-right: 54px;
     padding-top: 10px;
     padding-left: 32px;
@@ -463,5 +467,6 @@ button {
 
   .about__img {
     min-width: 532px;
+    border-radius: 6px;
   }
 }
